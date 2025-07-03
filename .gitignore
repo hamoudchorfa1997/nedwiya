@@ -34,3 +34,28 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Unwanted text files and temporary files
+*.txt
+*.log
+*.tmp
+*.cache
+*.temp
+
+# IDE and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+ehthumbs.db
+.Spotlight-V100
+.Trashes
+
+# Documentation files you don't want in production
+*.md.backup
+*.backup
+URGENT-*.md
+DATABASE-*.md
+FOREIGN-KEY-*.md
+CATEGORY-MISMATCH-*.md
