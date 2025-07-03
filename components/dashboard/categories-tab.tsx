@@ -139,9 +139,9 @@ export function CategoriesTab({
               Add New Category
             </Button>
           </DialogTrigger>
-          <DialogContent className="w-[95vw] max-w-sm rounded-2xl">
+          <DialogContent className="w-[95vw] max-w-sm sm:max-w-md">
             <DialogHeader>
-              <DialogTitle className="text-lg">Create New Category</DialogTitle>
+              <DialogTitle className="text-lg sm:text-xl">Create New Category</DialogTitle>
               <DialogDescription className="text-sm">
                 Add a new category to organize your stock items.
               </DialogDescription>
@@ -298,9 +298,9 @@ export function CategoriesTab({
       </div>
 
       <Dialog open={isEditOpen} onOpenChange={setIsEditOpen}>
-        <DialogContent className="w-[95vw] max-w-sm rounded-2xl">
+        <DialogContent className="w-[95vw] max-w-sm sm:max-w-md">
           <DialogHeader>
-            <DialogTitle className="text-lg">Edit Category</DialogTitle>
+            <DialogTitle className="text-lg sm:text-xl">Edit Category</DialogTitle>
             <DialogDescription className="text-sm">
               Update the category information.
             </DialogDescription>

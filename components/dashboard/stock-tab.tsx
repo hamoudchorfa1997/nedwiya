@@ -253,9 +253,9 @@ export function StockTab({
               Add Stock Item
             </Button>
           </DialogTrigger>
-          <DialogContent className="w-[95vw] max-w-md rounded-2xl max-h-[90vh] overflow-y-auto">
+          <DialogContent className="w-[95vw] max-w-md sm:max-w-lg">
             <DialogHeader>
-              <DialogTitle className="text-lg">Add New Stock Item</DialogTitle>
+              <DialogTitle className="text-lg sm:text-xl">Add New Stock Item</DialogTitle>
               <DialogDescription className="text-sm">
                 Add a new item to your inventory.
               </DialogDescription>
